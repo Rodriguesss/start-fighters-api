@@ -54,8 +54,8 @@ function getFighterStarCount(fighterRepos: number[]): number {
 }
 
 async function getBattleResult(
-  firstFighter: any,
-  secondFighter: any,
+  firstFighter: Fighter,
+  secondFighter: Fighter,
   firstUserStarCount: number,
   secondUserStarCount: number
 ): Promise<BattleResult> {
